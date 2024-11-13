@@ -670,3 +670,11 @@ An example of configured parameters for inline styles combining each the previou
 - `cd packages/extension`
 - `yarn start`
 - Head to `http://localhost:3000` for the locally running extension
+
+## Deployment
+
+- `yarn install`
+- `yarn build`
+- `cd packages/extension`
+- `yarn build`
+- `yarn gh-pages -d build`
