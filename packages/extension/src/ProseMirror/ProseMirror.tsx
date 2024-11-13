@@ -84,7 +84,6 @@ class ProseMirror extends React.Component<ProseMirrorProps, ProseMirrorState> {
       ...this.props.editorViewOptions,
       state: editorState,
       dispatchTransaction: (transaction: any) => {
-        // The 
         if (transaction.meta['content-type']) {
           if (onUpdateState && onChange) {
             const contentData = {...transaction.meta}
